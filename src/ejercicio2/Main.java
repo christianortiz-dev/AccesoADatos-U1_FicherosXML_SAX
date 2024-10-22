@@ -15,7 +15,7 @@ public class Main {
             SAXParser parser = factory.newSAXParser();
  
             LeerRSS handler = new LeerRSS();
-            parser.parse("rss.xml", handler);
+            parser.parse("rss.aspx", handler);
  
         } catch (ParserConfigurationException | SAXException | IOException ex) {
             System.out.println(ex.getMessage());
